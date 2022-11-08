@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    align-items: center;
+}
+.header__logo{
+    background-color: aqua;
+    width: 30%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+   width: 100%;
+   height: 90%;
+   background-color: blue; 
+   display: flex;
+}
+nav ul{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+nav li{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    color: white;
+}
+main{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+background: linear-gradient(95deg, rgba(255,254,105,1) 0%, rgba(0,212,255,1) 100%);
+}
+.main__slider{
+    width: 80%;
+    height: 60%;
+    background-color: chartreuse;
+}
+.main__footer{
+    width: 80%;
+    height: 40%;
+    background-color: cornflowerblue;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+.main__miniImage{
+    width: 100%;
+    height: 100%;
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image{
+    width: 90%;
+    height: 90%;
+    background-color: beige;
+}
+.main__miniImage h3{
+    position: relative;
+    bottom: 100px;
+    right: 50px;
+}
